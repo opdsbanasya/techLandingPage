@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.nav,
+.footer {
+    height: 80px;
+    width: 100%;
+    /* background-color: lightgreen; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.nav-part1 {
+    display: flex;
+    align-items: center;
+}
+
+.nav-part1 h3,
+.nav-part1 i {
+    border: 1px solid black;
+    padding: 5px 8px;
+    margin: 0 1px;
+    border-radius: 20px;
+}
+
+.nav-btn {
+    background: none;
+    border: 1px solid black;
+    height: 40px;
+    width: auto;
+    border-radius: 20px;
+    padding: 5px 8px;
+    font-size: 15px;
+}
+
+#reg {
+    background-color: orangered;
+    border: none;
+    color: #fff;
+}
+
+.nav-part2 h1 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.main>h1 {
+    font-size: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+
+}
+
+.img-card {
+    height: 360px;
+    width: 270px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+#img1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#img2 {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+#img3 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+}
+.logo{
+   height:20px;
+   width: 20px;
+}
